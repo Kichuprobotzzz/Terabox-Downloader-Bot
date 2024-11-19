@@ -90,7 +90,7 @@ async def handle_message(client, message: Message):
     is_member = await is_user_member(client, user_id)
 
     if not is_member:
-        join_button = InlineKeyboardButton("ᴊᴏɪɴ ʜᴇʀᴇ", url="https://t.me/+Q8sRUuL-hzUwZGM1")
+        join_button = InlineKeyboardButton("ᴊᴏɪɴ ʜᴇʀᴇ", url="https://t.me/+2yCN3VP_YIU4MzE1")
         reply_markup = InlineKeyboardMarkup([[join_button]])
         await message.reply_text("ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ.", reply_markup=reply_markup)
         return
